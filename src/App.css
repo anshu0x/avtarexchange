@@ -1,0 +1,30 @@
+.customButton {
+  background: linear-gradient(
+    269.27deg,
+    #2f8af5 0.52%,
+    #0361ce 48.96%,
+    #0fbee4 100%
+  );
+}
+input:checked ~ .dot {
+  transform: translateX(100%);
+  background-color: #48bb78;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #1a1c24 inset !important;
+  -webkit-text-fill-color: #fff !important;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

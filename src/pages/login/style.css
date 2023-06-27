@@ -1,0 +1,38 @@
+.custom-input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgba(214, 214, 214, 0.125);
+    border-radius: 2px;
+}
+.custom-input input {
+    background-color: transparent;
+    width: 100%;
+}
+.custom-input input:active {
+    background-color: transparent;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    max-width: 100%;
+    min-width: 60%;
+    background-color: #053896;
+}
+.form-container .form-left img {
+    max-height: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-container {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .form-left {
+        text-align: center;
+    }
+    .form-left img {
+        margin: 0 auto 20px auto;
+    }
+}

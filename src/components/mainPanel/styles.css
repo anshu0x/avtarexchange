@@ -1,0 +1,151 @@
+.profile-button img {
+    width: 30px;
+    padding-right: 10px;
+}
+
+.profile-button {
+    display: flex;
+    border-radius: 22px;
+    font-size: 14px;
+    background: rgb(71, 71, 73);
+    background: linear-gradient(
+        0deg,
+        rgba(71, 71, 73, 1) 0%,
+        rgba(62, 62, 62, 1) 38%
+    );
+    min-width: 150px;
+}
+
+.profile-popup {
+    background: rgb(43, 41, 41);
+    background: linear-gradient(
+        0deg,
+        rgba(43, 41, 41, 1) 0%,
+        rgba(90, 88, 88, 1) 65%
+    );
+    position: fixed;
+    top: 80px;
+    right: 40px;
+    border-radius: 12px;
+    width: 500px;
+    max-width: 81%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.profile-popup .section {
+    display: flex;
+    border-color: grey;
+    border-bottom-width: 1px;
+    padding: 22px;
+}
+
+.profile-popup .section img {
+    width: 20px;
+    object-fit: contain;
+}
+
+.profile-popup .section p {
+    width: 90%;
+    margin-left: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.profile-popup .section p:last-child {
+    cursor: pointer;
+}
+
+.profile-popup .section a {
+    width: 90%;
+    margin-left: 15px;
+    overflow: hidden;
+    font-size: 13px;
+    padding: 8px;
+    border-radius: 16px;
+    background: rgb(52, 50, 50);
+    background: linear-gradient(
+        0deg,
+        rgba(52, 50, 50, 1) 0%,
+        rgba(43, 39, 39, 1) 100%
+    );
+}
+
+.profile-popup .section:last-child {
+    border-bottom-width: 0px;
+}
+
+.coins {
+    position: relative;
+    padding: 19px;
+    border-radius: 11px;
+    color: white;
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    background: rgb(94, 123, 220);
+    background: linear-gradient(
+        0deg,
+        rgba(94, 123, 220, 1) 0%,
+        rgba(28, 53, 137, 1) 100%
+    );
+}
+
+.coins:nth-child(2) {
+    background: rgb(161, 115, 246);
+    background: linear-gradient(
+        0deg,
+        rgba(161, 115, 246, 1) 0%,
+        rgba(48, 66, 163, 1) 100%
+    );
+}
+
+.coins:nth-child(3) {
+    background: rgb(36, 35, 36);
+    background: linear-gradient(
+        0deg,
+        rgba(36, 35, 36, 1) 0%,
+        rgba(52, 52, 52, 1) 100%
+    );
+}
+
+.coins:nth-child(4) {
+    background: rgb(14, 48, 119);
+    background: linear-gradient(
+        0deg,
+        rgba(14, 48, 119, 1) 0%,
+        rgba(26, 116, 165, 1) 100%
+    );
+}
+
+.coins .price {
+    font-size: xx-large;
+}
+
+.coins .name {
+    font-size: small;
+}
+
+.coins img {
+    position: absolute;
+    margin-right: 18px;
+    right: 0;
+    width: 40px;
+}
+
+.recent-transactions {
+    color: white;
+}
+
+.recent-transactions table {
+    background: #1c1b1b;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+
+.recent-transactions table tr {
+    padding: 8px;
+    height: 83px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
